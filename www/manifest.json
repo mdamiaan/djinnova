@@ -1,24 +1,25 @@
 {
+  "name": "DJ Innova Stock",
+  "short_name": "DJ Innova",
+  "description": "Gestión de stock y ventas para DJ INNOVA.",
   "id": "/",
-  "name": "DJ INNOVA Stock",
-  "short_name": "DJ INNOVA",
-  "description": "App para gestión de stock y ventas de DJ INNOVA. Consultá productos, stock y vendé desde el celu.",
-  "start_url": "/",
+  "start_url": "/djinnova/",
   "display": "standalone",
   "background_color": "#181f2c",
   "theme_color": "#21e1d0",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "scope": "/djinnova/"
 }
